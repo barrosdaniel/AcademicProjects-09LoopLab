@@ -1,3 +1,31 @@
-h1 {
-  color: red;
+/* Color Variables
+============================================================ */
+:root {
+  --background-color: #333;
+  --primary-text-color: #fafafa;
+  --highlight-color: #008ed6;
+}
+
+
+
+/* Resets
+============================================================ */
+html,
+body {
+  background-color: var(--background-color);
+  color: var(--background-color);
+}
+
+
+
+/* Global Styles
+============================================================ */
+
+
+
+/* Navbar 
+============================================================ */
+.navbar {
+  border-bottom: 3px solid var(--highlight-color);
+  opacity: 0.8;
 }
