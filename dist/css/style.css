@@ -10,10 +10,10 @@
 
 /* Resets
 ============================================================ */
-html,
 body {
   background-color: var(--background-color);
-  color: var(--background-color);
+  color: var(--primary-text-color);
+  font-size: 16px;
 }
 
 
@@ -27,5 +27,42 @@ body {
 ============================================================ */
 .navbar {
   border-bottom: 3px solid var(--highlight-color);
+  opacity: 0.9;
+}
+
+
+
+/* Home Section
+============================================================ */
+#home-section {
+  background: url(../img/home.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 700px;
+}
+
+#home-section .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+#home-section .home-inner {
+  padding-top: 150px;
+}
+
+#home-section .card {
   opacity: 0.8;
+}
+
+#home-section .fas {
+  border-radius: 0.25rem;
+  background-color: var(--primary-text-color);
+  color: var(--highlight-color);
+  padding: 0.25rem;
 }
