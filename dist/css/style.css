@@ -16,6 +16,14 @@ body {
 
 /* Global Styles
 ============================================================ */
+#home-section .fas,
+#create-section .fas {
+  border-radius: 0.25rem;
+  padding: 0.25rem;
+  background-color: var(--primary-text-color);
+  color: var(--highlight-color);
+}
+
 #explore-section .fas,
 #share-section .fas {
   border-radius: 0.25rem;
@@ -59,12 +67,8 @@ body {
   opacity: 0.8;
 }
 
-#home-section .fas {
-  border-radius: 0.25rem;
-  background-color: var(--primary-text-color);
-  color: var(--highlight-color);
-  padding: 0.25rem;
-}
-
 /* Explore Section
+============================================================ */
+
+/* Create Section
 ============================================================ */
