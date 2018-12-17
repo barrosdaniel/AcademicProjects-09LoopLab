@@ -1,0 +1,23 @@
+{
+  "name": "AcademicProjects-09LoopLab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barrosdaniel/AcademicProjects-09LoopLab.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/barrosdaniel/AcademicProjects-09LoopLab/issues"
+  },
+  "homepage": "https://barrosdaniel/AcademicProjects-09LoopLab",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
